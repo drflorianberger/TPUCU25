@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -364,7 +364,7 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="stochastic-stepper">
 <h1>Stochastic Stepper<a class="headerlink" href="#stochastic-stepper" title="Link to this heading">#</a></h1>
-<p>We assume that a molecular motor steps along its tracks with a fixed step size <span class="math notranslate nohighlight">\(d\)</span>. However, between the consecutive steps the motor has to wait for an ATP molecule to bind, inducing a complex process of hydrolysis and molecular rearrangements. Therefore the time between the steps is a stochastic quantity. As a first approximation, we assume that this waiting time is exponentially distributed with rate <span class="math notranslate nohighlight">\(k\)</span> and the motor can only step forward. Our first question is: how many steps did the motor perform in a given time <span class="math notranslate nohighlight">\(t\)</span>. Because this number is different from realization to realization, we have to reformulate the question and ask:</p>
+<p>We assume that a molecular motor steps along its tracks with a fixed step size <span class="math notranslate nohighlight">\(d\)</span>. However, between the consecutive steps, the motor has to wait for an ATP molecule to bind, inducing a complex process of hydrolysis and molecular rearrangements. Therefore, the time between the steps is a stochastic quantity. As a first approximation, we assume that this waiting time is exponentially distributed with rate <span class="math notranslate nohighlight">\(k\)</span> and the motor can only step forward. Our first question is: how many steps did the motor perform in a given time <span class="math notranslate nohighlight">\(t\)</span>? Because this number is different from realization to realization, we have to reformulate the question and ask:</p>
 <p>What is the probability <span class="math notranslate nohighlight">\(P_N(t)\)</span> that the motor performed <span class="math notranslate nohighlight">\(N\)</span> steps during the time <span class="math notranslate nohighlight">\(t\)</span>?</p>
 <figure class="align-default" id="stepstates">
 <a class="reference internal image-reference" href="../_images/stepstate.png"><img alt="../_images/stepstate.png" src="../_images/stepstate.png" style="height: 70px;" /></a>
@@ -380,7 +380,7 @@
 \[
 P_j(t) = \frac{(k t)^j}{j!} e^{-kt}
 \]</div>
-<p>This model is often called ‘Poisson stepper’.</p>
+<p>This model is often called the ‘Poisson stepper’.</p>
 <p>We can write the position as a function of time as:</p>
 <div class="math notranslate nohighlight">
 \[
@@ -401,12 +401,12 @@ d \mean{N(t)} &amp;= d \sum_{j=0}^{\infty} j P_j(t) = d \sum_{j=0}^{\infty} j \f
 = d(0 + \sum_{j=1}^{\infty} j \frac{(k t)^j}{j!} e^{-kt})\\ &amp;= d kt \sum_{j=1}^{\infty}  \frac{(k t)^{j-1}}{(j-1)!} e^{-kt}
 \underset{n:= j-1}{=} d kt \underbrace{\sum_{n=0}^{\infty}  \frac{(k t)^{n}}{n!}}_{e^{kt}} e^{-kt} = dkt
 \end{split}\]</div>
-<p>The variance of the position can be calculated (exersice):</p>
+<p>The variance of the position can be calculated (exercise):</p>
 <div class="math notranslate nohighlight" id="equation-eq-step">
 <span class="eqno">(7)<a class="headerlink" href="#equation-eq-step" title="Link to this equation">#</a></span>\[
 \mean{(x-\mean{x})^2} = \mean{d^2 N^2} - \mean{d N}^2 = d^2 \underbrace{\mean{N^2}}_{kt + (kt)^2} - (dkt)^2 = d^2 kt
 \]</div>
-<p>Now we can make a very strong prediction from the model about the so-called randomness.</p>
+<p>Now, we can make a very strong prediction from the model about the so-called randomness.</p>
 </section>
 
     <script type="text/x-thebe-config">

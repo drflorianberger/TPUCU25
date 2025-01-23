@@ -2,7 +2,7 @@
 
 The free energy release of ATP hydrolysis is on the order of $24 kT = 24 \cdot 4.1 \, \rm{pN} \rm{nm} \approx 100 \, \rm{pN} \rm{nm}$. If the step size of a motor is on the order of nm, we expect that the force that a single motor can produce is on the order of pN.  
 
-To measure pN forces and the position of proteins, investigators use optical traps. The basic idea is to bind a single molecule to a sub-micron dielectric bead and then exert forces on this bead by using a focused laser.
+Investigators use optical traps to measure pN forces and the position of proteins. The basic idea is to bind a single molecule to a sub-micron dielectric bead and then exert forces on this bead by using a focused laser.
 
 
 ```{figure} kinesin.png
@@ -27,7 +27,7 @@ name: trap1
 ---
 ```
 
-In a laser beam with an intensity profile, the bead will experience a net force pushing towards the center of the beam.
+In a laser beam with an intensity profile, the bead will experience a net force pushing toward the center of the beam.
 
 
 ```{figure} trap2.png

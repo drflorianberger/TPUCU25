@@ -24,7 +24,7 @@ is normalized.
 <br />
 <br />
 
-1.4) **2 Points:** Suppose you have two identical dice with 6-faces with numbers 1 to 6. Tossing the dice together, what is the combined mean value and the combined variance? Can you guess a rule for the mean and the variance of a system of independent events?
+1.4) **2 Points:** Suppose you have two identical dice with 6 faces with numbers 1 to 6. Tossing the dice together, what is the combined mean value and the combined variance? Can you guess a rule for the mean and the variance of a system of independent events?
 <br />
 <br />
 
@@ -49,4 +49,4 @@ $$
 p(t) = \frac{1}{\tau} e^{-t/\tau}
 $$
 
-What is the probability of waiting longer than 10 minutes? If you have already waited for 5 minutes, what is the probability of waiting longer than another 10 minutes? (Difficult question! here, you should consider normalizing the probability again. Think about constructing a histogram). Does the result make sense? The exponential function is memoryless.
+What is the probability of waiting longer than 10 minutes? If you have already waited for 5 minutes, what is the probability of waiting longer than another 10 minutes? (Difficult question! Here, you should consider normalizing the probability again. Think about constructing a histogram). Does the result make sense? The exponential function is memoryless.

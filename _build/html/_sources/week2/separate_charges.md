@@ -2,7 +2,7 @@
 
 
 ## Separating charges is fundamental for neural communication
-Cells separate ions between compartments to store energy and information. These compartments are separated by membranes with a protein machinery of pumps and channels. These pumps and channels regulate the trans-membrane ion flow, keep charge imbalances from equilibrating and thus generate and maintain a voltage potential across the membrane. This membrane potential can be altered by chemical, electrical, or mechanical stimulation and the resulting disturbance can propagate along the cell membrane as action potentials. Action potentials are fundamental for neural communication and travel at a rate of $10-100\, \rm{m/s}$.
+Cells separate ions between compartments to store energy and information. These compartments are separated by membranes with a protein machinery of pumps and channels. These pumps and channels regulate the trans-membrane ion flow, keep charge imbalances from equilibrating, and thus generate and maintain a voltage potential across the membrane. This membrane potential can be altered by chemical, electrical, or mechanical stimulation, and the resulting disturbance can propagate along the cell membrane as action potentials. Action potentials are fundamental for neural communication and travel at a rate of $10-100\, \rm{m/s}$.
 
 (sec:sep)=
 ## The basics of separating charges
@@ -14,9 +14,9 @@ Imagine you have two containers, one filled with particles and the other one emp
 height: 150px
 name: sc1
 ---
-Particles are in the left container and the channel is blocked.
+Particles are in the left container, and the channel is blocked.
 ```
-How does the equilibrated system looks like after we open the channel and let the system relax to its equilibrium state? Click below right to see the answer.
+What does the equilibrated system look like after we open the channel and let the system relax to its equilibrium state? Click below right to see the answer.
 ```{toggle}
 In the initial system, there is a concentration gradient: high concentration in the left container and low concentration in the right container. Diffusion will reduce the concentration gradient until the concentration is the same in both containers. 
 ```{figure} sc1u.png
@@ -35,7 +35,7 @@ name: sc2
 ---
 Oppositely charged particles are in the separated containers.
 ```
-How does the equilibrated system looks like after we open the channel and let the system relax to its equilibrium state? Click below right to see the answer.
+What does the equilibrated system look like after we open the channel and let the system relax to its equilibrium state? Click below right to see the answer.
 ```{toggle}
 In the initial system, there is an electrical gradient: negatively charged particles in the left container and positively charged particles in the right container, creating an electrical potential between the containers. Particles will rearrange in such a way that electrical potential is neutralized.  
 ```{figure} sc2u.png
@@ -43,10 +43,10 @@ In the initial system, there is an electrical gradient: negatively charged parti
 height: 150px
 name: sc2u
 ---
-After opening the channel, the electrical gradient is neutralized by mixing of the particles.
+After opening the channel, the electrical gradient is neutralized by the mixing of the particles.
 ```
 
-If in equilibrium, concentration and electrical gradients are canceled out, how can we establish an electrical potential? Nature uses specific channels. These channels only allow specific particles to go through their pores. Let's see how that works!
+If, in equilibrium, concentration, and electrical gradients are canceled out, how can we establish an electrical potential? Nature uses specific channels. These channels only allow specific particles to go through their pores. Let's see how that works!
 
 Imagine, we have a channel that is specific for the blue particles. Now, we consider the following system
 
@@ -55,7 +55,7 @@ Imagine, we have a channel that is specific for the blue particles. Now, we cons
 height: 150px
 name: sc3
 ---
-Particle are initally in the right container.
+Particles are initially in the right container.
 ```
 What happens if we open the channel?
 ```{toggle}
@@ -65,7 +65,7 @@ The concentration gradient will disappear!
 height: 150px
 name: sc3u
 ---
-Particles distribute equally in both containers.
+Particles are distributed equally in both containers.
 ```
 
 Imagen, we have an initially electrical neutral system with negatively and positively charged particles in the left container. Now, the channel is specific for the blue particles and only lets them through to the other container.
@@ -79,14 +79,14 @@ Initially, the system is electrically neutral with plus and minus ions in the le
 ```
 What happens if we open the channel?
 ```{toggle}
-The blue particles with diffuse to the empty container in order to reduce the concentration gradient, but at the same time they will generate an electrical potential because they carry a negative charge. The system will find a compromise between the concentration gradient and the electrical gradient and a voltage potential is generated between the containers. 
+The blue particles will diffuse to the empty container in order to reduce the concentration gradient, but at the same time, they will generate an electrical potential because they carry a negative charge. The system will find a compromise between the concentration gradient and the electrical gradient and a voltage potential is generated between the containers. 
 
 ```{figure} sc4u.png
 ---
 height: 150px
 name: sc4u
 ---
-Because only the blue particles can go through the channel, some of them will diffuse to the empty container to reduce the concentration gradient. In this way, they separate from the positively charged ions and an electrical potential is generated.
+Because only the blue particles can go through the channel, some of them will diffuse to the empty container to reduce the concentration gradient. In this way, they separate from the positively charged ions, and an electrical potential is generated.
 ```
 With ion-specific channels and different ion concentrations, a membrane potential can be established even in thermodynamic equilibrium. This potential is the Nernst potential, also called the equilibrium potential. Typical values are on the order of $-60 \rm{mV}$.
 

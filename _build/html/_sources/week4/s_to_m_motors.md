@@ -12,11 +12,11 @@ In principle, this can depend on several quantities:
 - Force
 
 
-The force-dependent behavior of single molecular motors has been studied with optical traps
+The force-dependent behavior of single molecular motors has been studied with optical traps.
 
 ### Force-velocity relation
 
-The velocity of a motor decreases with an opposing force
+The velocity of a motor decreases with an opposing force.
 
 ```{figure} forcevelo.png
 ---

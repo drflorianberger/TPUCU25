@@ -21,7 +21,7 @@ name: rand
 
 Recall that the Poisson stepper performs directed steps with exponentially distributed waiting times.
 
-In general, there could be several transitions of the system involved between the step.
+In general, there could be several transitions of the system involved between the steps.
 
 ```{figure} comprand.png
 ---

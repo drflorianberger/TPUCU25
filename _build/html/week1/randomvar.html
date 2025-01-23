@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -376,7 +376,7 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="random-variables">
 <h1>Random Variables<a class="headerlink" href="#random-variables" title="Link to this heading">#</a></h1>
-<p>We cannot predict the value of a random variable in the future from the information that we have at the present.</p>
+<p>We cannot predict the value of a random variable in the future from the information that we have at present.</p>
 <p>However, we can make probabilistic statements about the future.</p>
 <p>Example coin flipping:</p>
 <p>What is the probability <span class="math notranslate nohighlight">\(P(H)\)</span> to flip heads?</p>
@@ -399,7 +399,7 @@ P(H) + P(T) = 1
 \[
 P(T) = 1-P(H)
 \]</div>
-<p>Let’s consider two independent events: two coins. What is the probability of flipping both coins to heads</p>
+<p>Let’s consider two independent events: two coins. What is the probability of flipping both coins to heads?</p>
 <div class="math notranslate nohighlight">
 \[
 P(H \mbox{ and } H) = P(H)P(H)
@@ -409,11 +409,11 @@ P(H \mbox{ and } H) = P(H)P(H)
 \[
 P(H) = \frac{\mbox{number of heads}}{\mbox{number of all flips}}.
 \]</div>
-<p>Is there a difference between tossing 100 coins at the same time and evaluate how many display heads, and flipping one coin a 100 times?</p>
+<p>Is there a difference between tossing 100 coins at the same time and evaluating how many display heads there are and flipping one coin 100 times?</p>
 <section id="the-mean-value">
 <h2>The mean value<a class="headerlink" href="#the-mean-value" title="Link to this heading">#</a></h2>
-<p>If we cannot predict the future value of a random variable, maybe we can say something about the expected mean?</p>
-<p>Let’s consider a fair die. What is the probability to toss a <span class="math notranslate nohighlight">\(1\)</span>?</p>
+<p>If we cannot predict the future value of a random variable, maybe we can say something about the expected mean.</p>
+<p>Let’s consider a fair die. What is the probability of tossing a <span class="math notranslate nohighlight">\(1\)</span>?</p>
 <div class="math notranslate nohighlight">
 \[
 P(1)=\frac{1}{6}
@@ -435,7 +435,7 @@ P(1)=\frac{1}{6}
 \[
 \mean{x} = \sum_{i}^{6} i * \frac{\mbox{number of i}}{\mbox{number of all tosses}} = \sum_{i}^{6} i * P(i)  
 \]</div>
-<p>Let’s consider a die with 4 faces and with the numbers 2 to 5. What is the mean?</p>
+<p>Let’s consider a die with four faces and with the numbers 2 to 5. What is the mean?</p>
 <div class="math notranslate nohighlight">
 \[
 \mean{x} = \sum_{i=2}^5 i * \frac{1}{4} = 3.5
@@ -452,7 +452,7 @@ P(1)=\frac{1}{6}
 \[
 \sigma^2 = \mean{(x-\mean{x})^2} = \mean{x^2} - \mean{x}^2
 \]</div>
-<p>For the 6 faces die, we obtain</p>
+<p>For the six faces die, we obtain</p>
 <div class="math notranslate nohighlight">
 \[
 \sigma^2 = \sum_i^6 i^2 \frac{1}{6} - 3.5^2 = 2.9

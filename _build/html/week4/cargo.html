@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -424,11 +424,11 @@ P_2 &amp;= \frac{\pi^2}{a}\\
 <p>with <span class="math notranslate nohighlight">\(a = (\e + \pi)^2 \)</span></p>
 <p>Does this make sense?</p>
 <p>What is the run length of a cargo transported by two motors? If the cargo is transported with velocity <span class="math notranslate nohighlight">\(v\)</span>, we only need to determine the average time <span class="math notranslate nohighlight">\(\mean{t}\)</span> the cargo is bound, to obtain the average run length <span class="math notranslate nohighlight">\(\mean{x} = v \mean{t}\)</span>.</p>
-<p>There are several methods to calculate <span class="math notranslate nohighlight">\(\mean{t}\)</span>. We can modify the graph such that it only accounts for the case when the motor is bound and promote the unbound state to an absorbing state</p>
+<p>There are several methods to calculate <span class="math notranslate nohighlight">\(\mean{t}\)</span>. We can modify the graph such that it only accounts for the case when the motor is bound and promotes the unbound state to an absorbing state</p>
 <figure class="align-default" id="absorbing2mot">
 <a class="reference internal image-reference" href="../_images/absorbing2mot.png"><img alt="../_images/absorbing2mot.png" src="../_images/absorbing2mot.png" style="height: 70px;" /></a>
 </figure>
-<p>Now we redirect the arrow going into the absorbing state to the starting state and close the network.</p>
+<p>Now, we redirect the arrow going into the absorbing state to the starting state and close the network.</p>
 <figure class="align-default" id="closed2mot">
 <a class="reference internal image-reference" href="../_images/closed2mot.png"><img alt="../_images/closed2mot.png" src="../_images/closed2mot.png" style="height: 70px;" /></a>
 </figure>
@@ -453,12 +453,12 @@ S_1 = \frac{2\e}{ 2\e + \pi}
 \[
 S_1 = \frac{P_1}{1-P_0}
 \]</div>
-<p>Note that the term <span class="math notranslate nohighlight">\(1-P_0\)</span> is the probability of finding a motor bound. With this result we can define an effective unbinding rate:</p>
+<p>Note that the term <span class="math notranslate nohighlight">\(1-P_0\)</span> is the probability of finding a motor bound. With this result, we can define an effective unbinding rate:</p>
 <div class="math notranslate nohighlight">
 \[
 \e_{\rm{eff}} = \e S_1 = \e \frac{P_1}{1-P_0}
 \]</div>
-<p>leading to the same average binding time (exersice):</p>
+<p>leading to the same average binding time (exercise):</p>
 <div class="math notranslate nohighlight">
 \[
 \mean{t} = \e_{\rm{eff}}^{-1} = \frac{ 2\e + \pi}{2\e^2}

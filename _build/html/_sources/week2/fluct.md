@@ -41,7 +41,7 @@ $$
 $$
 
 This result is a remarkable equation because:
-- This equation is independent of the open probability $\Po$. Which can be a complicated function, difficult to measure and, therefore, in most cases unknown.
+- This equation is independent of the open probability $\Po$, which can be a complicated function, difficult to measure, and, therefore, in most cases, unknown.
 - It relates the single-molecule current $i_{\rm{o}}$ to the macroscopic current $I$ that is easier to measure.
 
 From a measurement of the variance of the current as a function of the mean current, we can deduce the single-channel current and the number of involved channels:

@@ -34,7 +34,7 @@
     <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css?v=a3416100" />
     <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css?v=13237357" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css?v=be8a1c11" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css?v=4fa983c6" />
     <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.min.css?v=95c83b7e" />
   
@@ -364,7 +364,7 @@
                   
   <section class="tex2jax_ignore mathjax_ignore" id="the-master-equation">
 <h1>The Master equation<a class="headerlink" href="#the-master-equation" title="Link to this heading">#</a></h1>
-<p>One of the most successful tools to describe stochastic processes of molecules and cellular events are continuous time Markov processes. These processes are memory-less and the most simple realization can be explained with a two-state system.</p>
+<p>One of the most successful tools to describe stochastic processes of molecules and cellular events is continuous time Markov processes. These processes are memory-less, and the most simple realization can be explained by a two-state system.</p>
 <p>Let’s consider a system that can be in two states: state <span class="math notranslate nohighlight">\((1)\)</span> and state <span class="math notranslate nohighlight">\((2)\)</span>. The system stochastically jumps between these two states.</p>
 <figure class="align-default" id="states">
 <a class="reference internal image-reference" href="../_images/2states.png"><img alt="../_images/2states.png" src="../_images/2states.png" style="height: 120px;" /></a>
@@ -383,7 +383,7 @@ k_{12} dt.
 <figure class="align-default" id="statesp">
 <a class="reference internal image-reference" href="../_images/2statesP.png"><img alt="../_images/2statesP.png" src="../_images/2statesP.png" style="height: 100px;" /></a>
 </figure>
-<p>An important and very useful quantity is the probability current that represents the mean number of transitions per time.</p>
+<p>An important and very useful quantity is the probability current, which represents the mean number of transitions per time.</p>
 <div class="math notranslate nohighlight">
 \[
 J_{12} = k_{12}P_1.
@@ -406,7 +406,7 @@ P_1(t+dt) = P_1(t)(1 - k_{12}dt) + P_2(t) k_{21} dt
 \[
 \frac{d P_1}{dt} = - k_{12}P_1 + k_{21} P_2
 \]</div>
-<p>Similarily, for</p>
+<p>Similarly, for</p>
 <div class="math notranslate nohighlight">
 \[
 \frac{d P_2}{dt} = - k_{21}P_2 + k_{12} P_1

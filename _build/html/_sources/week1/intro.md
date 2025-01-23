@@ -2,7 +2,7 @@
 
 ### The Subject
 
-- 'Biophysics', 'Biological Physics', 'Physical Biology' have come to mean many different things in different communities.
+- 'Biophysics', 'Biological Physics', and 'Physical Biology' have come to mean many different things in different communities.
 - An exciting new field!! Is it Physics? Is it Biology? Is it in between?
 - Academic disciplines are often defined by their objects of study or by their style of inquiry.
 - Biology: the study of life
@@ -33,7 +33,7 @@ Key contributions:
 ### The Present
 
 - Interdisciplinary acceptance
-- Specific new research areas: mechanobiology, membrane-less organelles, predictable evolution, from genes to embryos, limits on biological performance, physics of behavior.
+- Specific new research areas: mechanobiology, membrane-less organelles, predictable evolution from genes to embryos, limits on biological performance, and physics of behavior.
 - Nonequilibrium systems
 - Complex systems
 

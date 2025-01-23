@@ -27,7 +27,7 @@ name: ense
 ---
 ```
 
-Voltage-gated ion channel increase their open probability by an increasing membrane voltage V. In our description, we assume a linear dependence: $\Delta E(V) = -\alpha V + \beta$, with the two free parameters $\alpha$ and $\beta$. Together with $\Po + \Pc = 1$ and
+Voltage-gated ion channels increase their open probability by an increasing membrane voltage V. In our description, we assume a linear dependence: $\Delta E(V) = -\alpha V + \beta$, with the two free parameters $\alpha$ and $\beta$. Together with $\Po + \Pc = 1$ and
 
 $$
 \frac{\Po}{\Pc} = e^{-\Delta E(V)/kT}, 

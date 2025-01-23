@@ -9,7 +9,7 @@ Explore
 
 https://www.quantamagazine.org
 
-to find a topic that you think is interesting for your final presentation. The topic needs to be related to Biophysics or Biology. Therefore, you can directly search for a biophysics topic under
+To find a topic that you think is interesting for your final presentation. The topic needs to be related to Biophysics or Biology. Therefore, you can directly search for a biophysics topic under
 
 https://www.quantamagazine.org/tag/biophysics/
 

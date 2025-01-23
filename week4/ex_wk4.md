@@ -16,7 +16,7 @@ name: cargo2staterates
 
 4.2) **1 Point:** Calculate the average time that the cargo is bound to the filament
 
-4.3) **1 Point:** Calculate the average run length of the cargo, assuming that the velocity of the cargo in state (1) and (2) are the same.
+4.3) **1 Point:** Calculate the average run length of the cargo, assuming that the velocity of the cargo in states (1) and (2) are the same.
 
 <br />
 <br />
@@ -34,7 +34,7 @@ $$
 \e(F) = \e_0 e^{F/\Fd}
 $$
 
-Let's assume that the cargo is exposed to a constant load force $F$ and this force is equally shared between the motors.
+Let's assume that the cargo is exposed to a constant load force $F$, and this force is shared equally between the motors.
 
 4.4) What are the force-dependent rates between the states?
 

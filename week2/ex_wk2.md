@@ -17,7 +17,7 @@ name: varex
 <br />
 <br />
 
-2.3) **1 Point** You only have an incomplete measurement of only the initial part of the variance of the current as a function of the mean current. This data can be well approximated with the red line in the plot. What quantities can you still determine from this measurement and what are their values?
+2.3) **1 Point** You only have an incomplete measurement of the initial part of the variance of the current as a function of the mean current. This data can be well approximated with the red line in the plot. What quantities can you still determine from this measurement and what are their values?
 
 ```{figure} incdata.png
 ---

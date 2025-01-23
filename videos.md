@@ -1,6 +1,6 @@
 # Videos of Talks
 
-Here you can find a collection of amazing talks about all kinds of problems related to biology.  
+Here, you can find a collection of amazing talks about all kinds of problems related to biology.  
 
 
 <br />

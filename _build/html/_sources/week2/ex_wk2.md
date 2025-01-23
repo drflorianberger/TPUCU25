@@ -26,7 +26,7 @@ name: 3states
 ---
 ``` 
 
-2.4) Time-dependent solution of a two-state channel:
+2.4) *Optional:* Time-dependent solution of a two-state channel:
 What is the time-dependent open probability $\Po(t)$ of the simple two-state channel model given in equation {eq}`eq:2state` 
 <br />
 <br />

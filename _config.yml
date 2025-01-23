@@ -1,0 +1,25 @@
+# Book settings
+title: Stochastic Physics of the Molecules of Life
+author: Florian Berger
+logo:
+
+latex:
+  latex_documents:
+    targetname: book.tex
+
+sphinx:
+  config:
+    mathjax3_config:
+      tex:
+        macros:
+          "koc": "k_{\\rm{oc}}"
+          "kco": "k_{\\rm{co}}"
+          "Po": "P_{\\rm{o}}"
+          "Pc": "P_{\\rm{c}}"
+          "mean": ["\\langle #1 \\rangle",1]
+          "Fs": "F_{\\rm{s}}"
+          "Fd": "F_{\\rm{d}}"
+          "del": "\\partial"
+          "e": "\\epsilon"
+
+         

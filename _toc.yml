@@ -1,0 +1,49 @@
+format: jb-article
+root: intro
+sections:
+- file: week1/week1
+  sections:
+  - file: week1/intro
+  - file: week1/whatislife
+  - file: week1/math
+  - file: week1/randomvar
+  - file: week1/master
+- file: week1/ex_wk1
+- file: week1/discussion
+- file: week1/project
+- file: week2/week2
+  sections:
+  - file: week2/separate_charges
+  - file: week2/current
+  - file: week2/stoc
+  - file: week2/gating
+  - file: week2/fluct
+  - file: week2/fluctVG
+  - file: week2/open
+- file: week2/ex_wk2
+- file: week2/paper
+- file: week2/project
+- file: week3/week3
+  sections:
+  - file: week3/molecularmotors
+  - file: week3/stepper
+  - file: week3/randomness
+  - file: week3/chemo
+  - file: week3/trap
+  - file: week3/open
+- file: week3/ex_wk3
+- file: week3/paper
+- file: week3/project
+- file: week4/week4
+  sections:
+  - file: week4/intra_transport
+  - file: week4/s_to_m_motors
+  - file: week4/cargo
+  - file: week4/cargo_force
+  - file: week4/critic
+  - file: week4/open
+- file: week4/ex_wk4
+- file: week4/paper
+- file: week4/project
+- file: week5/week5
+- file: videos

@@ -1,6 +1,6 @@
 # The Master equation
 
-One of the most successful tools to describe stochastic processes of molecules and cellular events are continuous time Markov processes. These processes are memory-less and the most simple realization can be explained with a two-state system.
+One of the most successful tools to describe stochastic processes of molecules and cellular events is continuous time Markov processes. These processes are memory-less, and the most simple realization can be explained by a two-state system.
 
 Let's consider a system that can be in two states: state $(1)$ and state $(2)$. The system stochastically jumps between these two states.
 
@@ -32,7 +32,7 @@ name: 2statesP
 ---
 ```
 
-An important and very useful quantity is the probability current that represents the mean number of transitions per time.
+An important and very useful quantity is the probability current, which represents the mean number of transitions per time.
 
 $$
 J_{12} = k_{12}P_1.
@@ -58,7 +58,7 @@ $$
 \frac{d P_1}{dt} = - k_{12}P_1 + k_{21} P_2
 $$
 
-Similarily, for
+Similarly, for
 
 $$
 \frac{d P_2}{dt} = - k_{21}P_2 + k_{12} P_1

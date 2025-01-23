@@ -1,6 +1,6 @@
 # Random Variables
 
-We cannot predict the value of a random variable in the future from the information that we have at the present.
+We cannot predict the value of a random variable in the future from the information that we have at present.
 
 However, we can make probabilistic statements about the future.
 
@@ -31,7 +31,7 @@ P(T) = 1-P(H)
 $$
 
 
-Let's consider two independent events: two coins. What is the probability of flipping both coins to heads
+Let's consider two independent events: two coins. What is the probability of flipping both coins to heads?
 
 $$
 P(H \mbox{ and } H) = P(H)P(H)
@@ -43,14 +43,14 @@ $$
 P(H) = \frac{\mbox{number of heads}}{\mbox{number of all flips}}.
 $$
 
-Is there a difference between tossing 100 coins at the same time and evaluate how many display heads, and flipping one coin a 100 times?
+Is there a difference between tossing 100 coins at the same time and evaluating how many display heads there are and flipping one coin 100 times?
 
 
 ### The mean value
 
-If we cannot predict the future value of a random variable, maybe we can say something about the expected mean?
+If we cannot predict the future value of a random variable, maybe we can say something about the expected mean.
 
-Let's consider a fair die. What is the probability to toss a $1$?
+Let's consider a fair die. What is the probability of tossing a $1$?
 
 $$
 P(1)=\frac{1}{6}
@@ -78,7 +78,7 @@ $$
 \mean{x} = \sum_{i}^{6} i * \frac{\mbox{number of i}}{\mbox{number of all tosses}} = \sum_{i}^{6} i * P(i)  
 $$
 
-Let's consider a die with 4 faces and with the numbers 2 to 5. What is the mean?
+Let's consider a die with four faces and with the numbers 2 to 5. What is the mean?
 
 $$
 \mean{x} = \sum_{i=2}^5 i * \frac{1}{4} = 3.5
@@ -101,7 +101,7 @@ $$
 \sigma^2 = \mean{(x-\mean{x})^2} = \mean{x^2} - \mean{x}^2
 $$
 
-For the 6 faces die, we obtain
+For the six faces die, we obtain
 
 $$
 \sigma^2 = \sum_i^6 i^2 \frac{1}{6} - 3.5^2 = 2.9

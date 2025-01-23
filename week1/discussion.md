@@ -9,7 +9,7 @@ The Physics of Life: How Much Can We Calculate?
 
 We will discuss the following questions:
 
-1) What is the main question that Bialek explores in his lecture regarding the applicability of physics to biology?
+1) What is the central question that Bialek explores in his lecture regarding the applicability of physics to biology?
 
 2) What is the significance of Galileo's quote about the "book of nature" in the context of physics?
 

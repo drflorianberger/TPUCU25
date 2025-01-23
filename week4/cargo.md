@@ -74,7 +74,7 @@ Does this make sense?
 
 What is the run length of a cargo transported by two motors? If the cargo is transported with velocity $v$, we only need to determine the average time $\mean{t}$ the cargo is bound, to obtain the average run length $\mean{x} = v \mean{t}$.
 
-There are several methods to calculate $\mean{t}$. We can modify the graph such that it only accounts for the case when the motor is bound and promote the unbound state to an absorbing state
+There are several methods to calculate $\mean{t}$. We can modify the graph such that it only accounts for the case when the motor is bound and promotes the unbound state to an absorbing state
 
 ```{figure} absorbing2mot.png
 ---
@@ -83,7 +83,7 @@ name: absorbing2mot
 ---
 ```
 
-Now we redirect the arrow going into the absorbing state to the starting state and close the network. 
+Now, we redirect the arrow going into the absorbing state to the starting state and close the network. 
 
 ```{figure} closed2mot.png
 ---
@@ -118,13 +118,13 @@ $$
 S_1 = \frac{P_1}{1-P_0}
 $$
 
-Note that the term $1-P_0$ is the probability of finding a motor bound. With this result we can define an effective unbinding rate:
+Note that the term $1-P_0$ is the probability of finding a motor bound. With this result, we can define an effective unbinding rate:
 
 $$
 \e_{\rm{eff}} = \e S_1 = \e \frac{P_1}{1-P_0}
 $$
 
-leading to the same average binding time (exersice):
+leading to the same average binding time (exercise):
 
 $$
 \mean{t} = \e_{\rm{eff}}^{-1} = \frac{ 2\e + \pi}{2\e^2}

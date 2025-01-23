@@ -7,12 +7,12 @@ Erwin Schr&ouml;dinger: What is life (1944)
 Paul Nurse: What is life (2020)
 - Must be able to evolve.
 - Separated but connected.
-- Chemical, physical and informational machines.
+- Chemical, physical, and informational machines.
 
 
 **Towards a biophysical understanding of life**
 
-Roughly speaking: a quantitative, mathematical description
+Roughly speaking, a quantitative, mathematical description
 
 Fascinating dynamics of cells:
 

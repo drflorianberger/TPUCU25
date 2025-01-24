@@ -1,11 +1,11 @@
 Week 2: Exercises
 =======================
  
-2.1) **2 Points** What is the average current through a voltage-gated ion channel in the steady-state ($t\to \infty$) as a function of voltage? The current is the product of two voltage-dependent quantities. What is the equation and what is the general shape (plot a generic case)? 
+2.1) **4 Points** What is the average current through a voltage-gated ion channel in the steady-state ($t\to \infty$) as a function of voltage? The current is the product of two voltage-dependent quantities. What is the equation and what is the general shape (plot a generic case)? 
 <br />
 <br />
 
-2.2) **2 Points** Given the following variance of the current as a function of the mean current from a cell. What is the single-channel current and how many channels are involved?
+2.2) **4 Points** Given the following variance of the current as a function of the mean current from a cell. What is the single-channel current and how many channels are involved?
 
 ```{figure} varex.png
 ---
@@ -17,7 +17,7 @@ name: varex
 <br />
 <br />
 
-2.3) **1 Point** You only have an incomplete measurement of the initial part of the variance of the current as a function of the mean current. This data can be well approximated with the red line in the plot. What quantities can you still determine from this measurement and what are their values?
+2.3) **4 Point** You only have an incomplete measurement of the initial part of the variance of the current as a function of the mean current. This data can be well approximated with the red line in the plot. What quantities can you still determine from this measurement and what are their values?
 
 ```{figure} incdata.png
 ---

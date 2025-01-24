@@ -12,11 +12,11 @@ name: cargo2staterates
 ---
 ```
 
-4.1) **3 Points:** Calculate the state probabilities $P_i$ in terms of the rates given in the diagram and show that they are normalized.
+4.1) **6 Points:** Calculate the state probabilities $P_i$ in terms of the rates given in the diagram and show that they are normalized.
 
-4.2) **1 Point:** Calculate the average time that the cargo is bound to the filament
+4.2) **2 Point:** Calculate the average time that the cargo is bound to the filament
 
-4.3) **1 Point:** Calculate the average run length of the cargo, assuming that the velocity of the cargo in states (1) and (2) are the same.
+4.3) **2 Point:** Calculate the average run length of the cargo, assuming that the velocity of the cargo in states (1) and (2) are the same.
 
 <br />
 <br />

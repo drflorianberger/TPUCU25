@@ -1,7 +1,7 @@
 Week 3: Exercises
 =======================
 
-3.1) **1 Point:** Use Taylor's theorem to show that
+3.1) **2 Point:** Use Taylor's theorem to show that
 
 $$
 e^{kt} = \sum_{n=0}^{\infty}  \frac{(k t)^{n}}{n!}
@@ -10,7 +10,7 @@ $$ (eq:exp)
 <br />
 <br />
 
-3.2) **2 Points:** Show that the solution 
+3.2) **4 Points:** Show that the solution 
 
 $$
 P_j(t) = \frac{(k t)^j}{j!} e^{-kt}
@@ -28,7 +28,7 @@ Show that the solution {eq}`eq:solution` is normalized, i.e. $\sum_j P_j(t) = 1$
 <br />
 
 
-3.3) **2 Points** Derive the variance $\mean{(x-\mean{x})^2}$ for a poisson stepper with step size $d$,
+3.3) **4 Points** Derive the variance $\mean{(x-\mean{x})^2}$ for a poisson stepper with step size $d$,
 
 $$
 x(t) = d N(t)

@@ -1,7 +1,7 @@
 Week 3: Exercises
 =======================
 
-3.1) **2 Point:** Use Taylor's theorem to show that
+3.1) **2 Points:** Use Taylor's theorem to show that
 
 $$
 e^{kt} = \sum_{n=0}^{\infty}  \frac{(k t)^{n}}{n!}
@@ -40,7 +40,7 @@ $$
 <br />
 <br />
 
-3.4) Consider a Markov process on the following network:
+3.4) *Optional:* Consider a Markov process on the following network:
 
 ```{figure} ex1.png
 ---
